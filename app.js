@@ -7,7 +7,7 @@ const errorsHandler = require('./middlewares/errorsHandler.js')
 
 app.use(express.static('public'))
 
-app.get('/', (req, res) => {
+app.get('/', (_, res) => {
     res.send('server on')
 })
 

@@ -1,6 +1,6 @@
 const connection = require('../data/db.js')
 
-function index(req, res) {
+function index(_, res) {
 
     const sql = 'SELECT * FROM movies'
 
